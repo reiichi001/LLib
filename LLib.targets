@@ -10,10 +10,6 @@
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     </PropertyGroup>
 
-    <ItemGroup>
-        <SourceLinkGiteaHost Include="git.carvel.li"/>
-    </ItemGroup>
-
     <!-- fix dubious warnings and defaults for dalamud projects that only seem to be an issue after using Dalamud.NET.Sdk -->
     <PropertyGroup>
         <!-- no clue which bright ligth thought I don't want to see default items (e.g. .targets files, or the plugin manifest) -->
@@ -21,6 +17,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.SourceLink.Gitea" Version="8.0.0" PrivateAssets="All"/>
+        <PackageReference Include="ECommons" Version="3.0.1.23" />
     </ItemGroup>
 </Project>
