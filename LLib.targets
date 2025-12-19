@@ -8,6 +8,7 @@
         <DebugType>portable</DebugType>
         <PathMap Condition="$(SolutionDir) != ''">$(SolutionDir)=X:\</PathMap>
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <TargetFramework>net10.0-windows7.0</TargetFramework>
     </PropertyGroup>
 
     <!-- fix dubious warnings and defaults for dalamud projects that only seem to be an issue after using Dalamud.NET.Sdk -->
